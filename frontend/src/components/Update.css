@@ -1,0 +1,19 @@
+.updateLabel {
+  display: contents;
+  font-weight: bold;
+}
+
+/* Submit button styles */
+#updateBtn {
+  width: 100%;
+  padding: 10px;
+  background-color: royalblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#updateBtn:hover {
+  background-color: rgba(65, 105, 225, 0.758);
+  cursor: pointer;
+}

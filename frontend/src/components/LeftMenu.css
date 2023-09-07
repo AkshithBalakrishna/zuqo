@@ -1,0 +1,30 @@
+#menuBtn {
+  background-color: royalblue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  margin-left: 0;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#menuBtn:hover {
+  background-color: rgba(65, 105, 225, 0.726);
+  cursor: pointer;
+}
+.show {
+  display: none;
+  margin: 0;
+}
+
+.lists {
+  list-style: none;
+}
+
+.menuLink {
+  text-decoration: none;
+  font-size: large;
+  font-weight: 500;
+}

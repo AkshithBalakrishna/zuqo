@@ -1,0 +1,51 @@
+#userManagementForm {
+  width: 400px;
+  padding: 20px;
+  background-color: rgba(33, 102, 102, 0.447);
+  border: 1px solid rgba(59, 41, 41, 0.426);
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.userManagementInput {
+  width: 100%;
+  padding: 10px;
+  color: black;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#userManagementSubmit {
+  width: 100%;
+  padding: 10px;
+  background-color: royalblue;
+  color: white;
+  border: none;
+  border-radius: 7px;
+}
+
+#userManagementSubmit:hover {
+  background-color: rgba(65, 105, 225, 0.701);
+  cursor: pointer;
+}
+
+#userManagementBtn {
+  background-color: royalblue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 7px;
+  margin-top: 10px;
+}
+
+#userManagementBtn:hover {
+  background-color: rgba(65, 105, 225, 0.701);
+  cursor: pointer;
+}
+
+/* Back button hover styles */
+button:hover {
+  background-color: #999;
+}

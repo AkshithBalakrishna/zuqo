@@ -1,0 +1,39 @@
+#userCardSection {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#userCard {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: rgb(231, 236, 193);
+}
+
+#userCard h1 {
+  font-size: 24px;
+  margin: 8px 0;
+}
+
+#userCard h3 {
+  font-size: 16px;
+  margin: 4px 0;
+}
+
+#userCardBtn {
+  margin-top: 10px;
+  margin-left: 15px;
+  background-color: royalblue;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+#userCardBtn:hover {
+  background-color: rgba(65, 105, 225, 0.781);
+}

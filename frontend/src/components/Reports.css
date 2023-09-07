@@ -1,0 +1,73 @@
+.reportsHeading {
+  text-align: center;
+  margin: 10px;
+  color: black;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+#reportsSearch {
+  margin-top: 20px;
+  width: 30%;
+  border: none;
+}
+
+#reportsTable {
+  width: 100%;
+}
+
+/* th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+} */
+
+.reportsTh {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.reportsTd {
+  border: 1px solid black;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.reportsbtn {
+  background-color: royalblue;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.reportsbtn:hover {
+  background-color: rgba(65, 105, 225, 0.745);
+  cursor: pointer;
+}
+
+.reportsBackBtn {
+  margin-top: 20px;
+  background-color: royalblue;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.reportsBackBtn:hover {
+  background-color: rgba(65, 105, 225, 0.743);
+  cursor: pointer;
+}
